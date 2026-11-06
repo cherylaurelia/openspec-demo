@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Palette and type from openspec.dev (light theme). */
+:root {
+  --bg: #f2efe3;
+  --ink: #33322f;
+  --ink-dim: #6f6a5c;
+  --accent: #c96f4b;
+  --accent-strong: #a64f2c;
+  --accent-border: #d9b8ab;
+  --rule: #c9c3b3;
+  --hit: #3f6b3a;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-border: var(--accent-border);
+  --color-rule: var(--rule);
+  --color-hit: var(--hit);
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-border);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: var(--accent);
+}

@@ -1,0 +1,8 @@
+[
+  { "id": "feat-tags", "kind": "feature", "expect": "enter", "text": "Notes should support tags, and GET /notes should be filterable by tag." },
+  { "id": "feat-persist", "kind": "feature", "expect": "enter", "text": "Notes disappear when the server restarts. Make them persist to a JSON file." },
+  { "id": "plan-unsure", "kind": "planning", "expect": "enter", "text": "I want notes to be shareable between users but I'm not sure how to do it cleanly. What are the options?" },
+  { "id": "spec-limits", "kind": "planning", "expect": "enter", "text": "Write up a spec for rate limiting the API, then we'll build it." },
+  { "id": "bug-empty", "kind": "bugfix", "expect": "skip", "text": "POST /notes with an invalid JSON body crashes the server. Fix it." },
+  { "id": "named-propose", "kind": "control", "expect": "enter", "text": "Use OpenSpec to propose a change that adds pagination to GET /notes." }
+]

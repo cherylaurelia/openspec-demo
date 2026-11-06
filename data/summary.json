@@ -1,0 +1,1240 @@
+{
+  "meta": {
+    "startedAt": "2026-11-05T23:57:38.339Z",
+    "openspec": "1.16.0",
+    "claudeCode": "2.1.318 (Claude Code)",
+    "model": "sonnet",
+    "reps": 5,
+    "maxTurns": 8,
+    "hint": "This project plans changes with OpenSpec. For new features or behavior changes, start with the openspec-propose skill (or openspec-explore if the idea is still fuzzy) before editing code.",
+    "customSkills": false,
+    "installed": {
+      "default": [
+        ".claude/commands/opsx/apply.md",
+        ".claude/commands/opsx/archive.md",
+        ".claude/commands/opsx/explore.md",
+        ".claude/commands/opsx/propose.md",
+        ".claude/commands/opsx/sync.md",
+        ".claude/commands/opsx/update.md",
+        ".claude/skills/openspec-apply-change/SKILL.md",
+        ".claude/skills/openspec-archive-change/SKILL.md",
+        ".claude/skills/openspec-explore/SKILL.md",
+        ".claude/skills/openspec-propose/SKILL.md",
+        ".claude/skills/openspec-sync-specs/SKILL.md",
+        ".claude/skills/openspec-update-change/SKILL.md"
+      ],
+      "skills-only": [
+        ".claude/skills/openspec-apply-change/SKILL.md",
+        ".claude/skills/openspec-archive-change/SKILL.md",
+        ".claude/skills/openspec-explore/SKILL.md",
+        ".claude/skills/openspec-propose/SKILL.md",
+        ".claude/skills/openspec-sync-specs/SKILL.md",
+        ".claude/skills/openspec-update-change/SKILL.md"
+      ],
+      "hint": [
+        ".claude/commands/opsx/apply.md",
+        ".claude/commands/opsx/archive.md",
+        ".claude/commands/opsx/explore.md",
+        ".claude/commands/opsx/propose.md",
+        ".claude/commands/opsx/sync.md",
+        ".claude/commands/opsx/update.md",
+        ".claude/skills/openspec-apply-change/SKILL.md",
+        ".claude/skills/openspec-archive-change/SKILL.md",
+        ".claude/skills/openspec-explore/SKILL.md",
+        ".claude/skills/openspec-propose/SKILL.md",
+        ".claude/skills/openspec-sync-specs/SKILL.md",
+        ".claude/skills/openspec-update-change/SKILL.md"
+      ]
+    },
+    "finishedAt": "2026-11-06T00:05:14.958Z",
+    "stamp": "2026-11-05T23-57-38-339Z",
+    "runs": 90,
+    "costUsd": 10.63
+  },
+  "conditions": [
+    "default",
+    "skills-only",
+    "hint"
+  ],
+  "prompts": [
+    {
+      "id": "feat-tags",
+      "text": "Notes should support tags, and GET /notes should be filterable by tag.",
+      "kind": "feature",
+      "expect": "enter",
+      "cells": {
+        "default": {
+          "n": 5,
+          "entered": 0,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-tags-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-tags-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-tags-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash python3 - <<'E'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-tags-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash python3 - <<'E'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-tags-5.jsonl"
+            }
+          ]
+        },
+        "skills-only": {
+          "n": 5,
+          "entered": 0,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-tags-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash python3 - <<'E'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-tags-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-tags-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash python3 - <<'E'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-tags-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js",
+                "src/store.js",
+                "test/store.test.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-tags-5.jsonl"
+            }
+          ]
+        },
+        "hint": {
+          "n": 5,
+          "entered": 5,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-note-tags"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-tags-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-note-tags"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-tags-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-note-tags"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-tags-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-note-tags"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-tags-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-note-tags"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-tags-5.jsonl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "feat-persist",
+      "text": "Notes disappear when the server restarts. Make them persist to a JSON file.",
+      "kind": "feature",
+      "expect": "enter",
+      "cells": {
+        "default": {
+          "n": 5,
+          "entered": 0,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Write src/store.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/store.js",
+                "test/store.test.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-persist-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "README.md",
+                "src/store.js",
+                "test/store.test.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-persist-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "README.md",
+                "package.json",
+                "src/store.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-persist-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/store.js",
+                "test/store.test.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-persist-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "package.json",
+                "src/store.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-feat-persist-5.jsonl"
+            }
+          ]
+        },
+        "skills-only": {
+          "n": 5,
+          "entered": 0,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "package.json",
+                "src/store.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-persist-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/store.js",
+                "test/store.test.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-persist-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Write src/store.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/store.js",
+                "test/store.test.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-persist-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "README.md",
+                "package.json",
+                "src/store.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-persist-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "code_first",
+              "verdict": "missed",
+              "firstStep": "Bash cat > src/store.js <<'EOF'",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/store.js",
+                "test/store.test.js",
+                ".gitignore"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-feat-persist-5.jsonl"
+            }
+          ]
+        },
+        "hint": {
+          "n": 5,
+          "entered": 5,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "persist-notes-to-json"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-persist-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "persist-notes-json"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-persist-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "persist-notes-json"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-persist-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "persist-notes-json"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-persist-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "persist-notes-to-json"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-feat-persist-5.jsonl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "plan-unsure",
+      "text": "I want notes to be shareable between users but I'm not sure how to do it cleanly. What are the options?",
+      "kind": "planning",
+      "expect": "enter",
+      "cells": {
+        "default": {
+          "n": 5,
+          "entered": 0,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-plan-unsure-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-plan-unsure-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-plan-unsure-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-plan-unsure-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-plan-unsure-5.jsonl"
+            }
+          ]
+        },
+        "skills-only": {
+          "n": 5,
+          "entered": 0,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-plan-unsure-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-plan-unsure-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-plan-unsure-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-plan-unsure-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "neither",
+              "verdict": "missed",
+              "firstStep": "",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-plan-unsure-5.jsonl"
+            }
+          ]
+        },
+        "hint": {
+          "n": 5,
+          "entered": 5,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-explore",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-plan-unsure-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-explore",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-plan-unsure-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-explore",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-plan-unsure-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-explore",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-plan-unsure-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-explore",
+              "changeFolders": [],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-plan-unsure-5.jsonl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spec-limits",
+      "text": "Write up a spec for rate limiting the API, then we'll build it.",
+      "kind": "planning",
+      "expect": "enter",
+      "cells": {
+        "default": {
+          "n": 5,
+          "entered": 5,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill opsx:propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-spec-limits-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill opsx:propose",
+              "changeFolders": [
+                "add-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-spec-limits-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-spec-limits-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-spec-limits-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill opsx:propose",
+              "changeFolders": [
+                "add-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-spec-limits-5.jsonl"
+            }
+          ]
+        },
+        "skills-only": {
+          "n": 5,
+          "entered": 5,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-spec-limits-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-spec-limits-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-spec-limits-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-spec-limits-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-spec-limits-5.jsonl"
+            }
+          ]
+        },
+        "hint": {
+          "n": 5,
+          "entered": 5,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-spec-limits-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-spec-limits-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-spec-limits-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-spec-limits-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-api-rate-limiting"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-spec-limits-5.jsonl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bug-empty",
+      "text": "POST /notes with an invalid JSON body crashes the server. Fix it.",
+      "kind": "bugfix",
+      "expect": "skip",
+      "cells": {
+        "default": {
+          "n": 5,
+          "entered": 0,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-bug-empty-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-bug-empty-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-bug-empty-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-bug-empty-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-bug-empty-5.jsonl"
+            }
+          ]
+        },
+        "skills-only": {
+          "n": 5,
+          "entered": 0,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-bug-empty-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-bug-empty-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-bug-empty-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-bug-empty-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-bug-empty-5.jsonl"
+            }
+          ]
+        },
+        "hint": {
+          "n": 5,
+          "entered": 0,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-bug-empty-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-bug-empty-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-bug-empty-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-bug-empty-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "code_first",
+              "verdict": "correct_skip",
+              "firstStep": "Edit src/server.js",
+              "changeFolders": [],
+              "sourceFilesChanged": [
+                "src/server.js"
+              ],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-bug-empty-5.jsonl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "named-propose",
+      "text": "Use OpenSpec to propose a change that adds pagination to GET /notes.",
+      "kind": "control",
+      "expect": "enter",
+      "cells": {
+        "default": {
+          "n": 5,
+          "entered": 5,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill opsx:propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-named-propose-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-named-propose-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-named-propose-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-named-propose-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill opsx:propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/default-named-propose-5.jsonl"
+            }
+          ]
+        },
+        "skills-only": {
+          "n": 5,
+          "entered": 5,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-named-propose-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-named-propose-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-named-propose-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-named-propose-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/skills-only-named-propose-5.jsonl"
+            }
+          ]
+        },
+        "hint": {
+          "n": 5,
+          "entered": 5,
+          "runs": [
+            {
+              "rep": 1,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-named-propose-1.jsonl"
+            },
+            {
+              "rep": 2,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-named-propose-2.jsonl"
+            },
+            {
+              "rep": 3,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-named-propose-3.jsonl"
+            },
+            {
+              "rep": 4,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-named-propose-4.jsonl"
+            },
+            {
+              "rep": 5,
+              "outcome": "openspec_first",
+              "verdict": "hit",
+              "firstStep": "Skill openspec-propose",
+              "changeFolders": [
+                "add-notes-pagination"
+              ],
+              "sourceFilesChanged": [],
+              "log": "results/2026-11-05T23-57-38-339Z/logs/hint-named-propose-5.jsonl"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "totals": {
+    "default": {
+      "hit": 10,
+      "missed": 15,
+      "falseTrigger": 0,
+      "correctSkip": 5
+    },
+    "skills-only": {
+      "hit": 10,
+      "missed": 15,
+      "falseTrigger": 0,
+      "correctSkip": 5
+    },
+    "hint": {
+      "hit": 25,
+      "missed": 0,
+      "falseTrigger": 0,
+      "correctSkip": 5
+    }
+  }
+}
